@@ -1,0 +1,59 @@
+.tela-nome {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: #222;
+
+  color: white;
+
+  font-family: Arial, sans-serif;
+}
+
+.tela-nome h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.tela-nome p {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.tela-nome input {
+  width: 300px;
+  padding: 12px;
+
+  font-size: 18px;
+
+  text-align: center;
+
+  border: none;
+  border-radius: 5px;
+
+  outline: none;
+
+  margin-bottom: 20px;
+}
+
+.tela-nome button {
+  width: 180px;
+  padding: 12px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.tela-nome button:hover {
+  transform: scale(1.05);
+}
